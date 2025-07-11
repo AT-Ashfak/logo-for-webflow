@@ -6,22 +6,88 @@
   font-variation-settings:
     "wdth" 100;
 }
+body{
+}
 
 /* Nav style */
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    max-width: 1140px;
+    margin: 0 auto;
+    align-content: center;
     
 }
 
 .btn-primary{
-    background-color: #FFFFFF;
+    background-color:#4E47FF;
     font-weight: bold;
     font-size: 16px;
-    color:#4E47FF;
+    color:white;
     
-    padding: 36px 12px;
+    padding: 12px 36px;
     border-radius: 10px;
-    gap: 10;
+    height: 48px;
+    
+}
+.h1 title{
+    font-size:65px;
+    font-weight:bold;
+    margin:20px;
+}
+.parent{
+    /* align-items: center; */
+    text-align: center;
+    margin: 120px 0;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.header{
+    background-image: url(../Assets/Hero-bg.png);
+}
+.title-button{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* webflow section */
+section{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.webflow{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+    gap: 50px;
+
+
+}
+.webflow h1{
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.webflow p{
+    font-size: 24px;
+    font-weight: normal;
+    margin-bottom: 20px;
+    color: grey;
+}
+.webflow img{
+    border-radius: 48px;
+}
+
+.threebox{
+    display: flex;
+    justify-content: space-around;
+}
+.user{
+    text-align: center;
+    margin: 120px 0 120px 0;
+    background-color: rgba(78, 71, 255, 0.1);
+    padding: 50px 80px;
+    border-radius: 24px;
 }
