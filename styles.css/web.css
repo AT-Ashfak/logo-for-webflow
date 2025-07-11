@@ -7,7 +7,8 @@
     "wdth" 100;
 }
 body{
-    background-color: skyblue;
+    background-color: rgba(135, 207, 235, 0.632);
+    margin: 0;
 }
 
 /* Nav style */
@@ -20,17 +21,36 @@ nav{
     align-content: center;
     
 }
+.nav-logo{
+    font-size: 34px;
+    font-weight: bolder;
+    color: #4E47FF;
+}
 
 .btn-primary{
     background-color:#4E47FF;
     font-weight: bold;
     font-size: 16px;
     color:white;
+    border: none;
     
     padding: 12px 36px;
     border-radius: 10px;
     height: 48px;
+
     
+}
+
+.btn-primary:hover{
+    background-color:white;
+    font-weight: bold;
+    font-size: 16px;
+    color:#4E47FF;
+    border: none;
+    
+    padding: 12px 36px;
+    border-radius: 10px;
+    height: 48px;
 }
 .h1 title{
     font-size:65px;
@@ -267,6 +287,34 @@ form input[type="text"],input[type="email"] {
     font-weight:normal ;
 
 }
+
+/* footer */
+
+.footer-div{
+    max-width:530px;
+    margin: 0 auto;
+    text-align: center;
+}
+.footer{
+    border: 1px solid grey;
+    background-color: white;
+    padding: 0 0 120px 0;
+
+}
+.footer-text{
+    margin-top: 120px;
+    font-size:100px ;
+    font-weight: 1000px;
+    color: #4E47FF;
+    margin-bottom: 10px;
+}
+.last-div{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 85px;
+    margin: 20px 0;
+}
+
 
 
 
